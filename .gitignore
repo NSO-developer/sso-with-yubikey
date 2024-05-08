@@ -7,3 +7,4 @@ packages/*
 !packages/.gitkeep
 
 nohup.out
+.DS_Store
