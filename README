@@ -1,17 +1,14 @@
-Single Sign-On with Yubikey OTP
-~~~~~~~~~~~~~~
-This example is the modified example from "misc/single-sign-on" that use Yubikey to authenticate the user "admin". The goal of this example is to show how to modify the original example in "misc/single-sign-on" and create your own SSO service.  To use thie example, one must have the Yubikey hardware. 
+# NSO Example - Single Sign-On with Yubikey OTP
+The Single Sign-On functionality enables users to login via HTTP based northbound APIs with a single sign-on authentication scheme, such as SAMLv2. This example is the modified example from "misc/single-sign-on" that use Yubikey to authenticate the user "admin". The goal of this example is to show how to modify the original example in "misc/single-sign-on" and create your own SSO service.  To use thie example, one must have the Yubikey hardware. 
 
 
-Prequisition
-~~~~~~~~~~~~~~~~~~~
+## Prequisition
 virtualenv
 nohup
 NSO 6.3       
 Yubikey hardware
 
-Running the Example
-~~~~~~~~~~~~~~~~~~~
+## Running the Example
 Based on the original makefile and steps in the README, this example automate and simplified few steps. If one would like to know in detail how SSO is configured, please refer back to the "misc/single-sign-on"
 
 1. Copy or softlink the "cisco-nso-saml2-auth" packages into the packages folder
