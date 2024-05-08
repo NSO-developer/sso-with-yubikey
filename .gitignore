@@ -1,0 +1,9 @@
+ncs-cdb/*.cdb
+!ncs-cdb/.gitkeep
+logs/*.trace
+logs/*.log
+!logs/.gitkeep
+packages/*
+!packages/.gitkeep
+
+nohup.out
