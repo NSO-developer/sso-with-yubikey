@@ -1,4 +1,4 @@
-Single Sign-On
+Single Sign-On with Yubikey OTP
 ~~~~~~~~~~~~~~
 This example is the modified example from "misc/single-sign-on" that use Yubikey to authenticate the user "admin". The goal of this example is to show how to modify the original example in "misc/single-sign-on" and create your own SSO service.  To use thie example, one must have the Yubikey hardware. 
 
