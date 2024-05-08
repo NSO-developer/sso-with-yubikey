@@ -21,9 +21,7 @@ Based on the original makefile and steps in the README, this example automate an
 8. Confirm the login and redirect back to the WebUI One 
 
 
-References
-~~~~~~~~~~
-
+## References
 Assertions and Protocols for the OASIS Security Assertion Markup Language
 (SAML) V2.0
 
@@ -35,9 +33,7 @@ flask-saml2
     https://github.com/mx-moth/flask-saml2
 
 
-License
-~~~~~~~
-
+## License
 The idp.py file is based on example/idp.py from flask-saml2.
 
 See LICENSE and flask-saml2/LICENSE for further details.
